@@ -71,7 +71,7 @@ namespace TestMonogameGL
         /// <param name="gameTime"></param>
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.Red);
+            GraphicsDevice.Clear(Color.Green);
 
             _spriteBatch.Begin();
             _spriteBatch.Draw(_testImage, new Vector2(85 + (float)(Math.Sin((double)_posX) * 25), (float)(Math.Cos((double)_posX) * 15)), Color.White);
