@@ -8,7 +8,7 @@ on:
 env:
   ITCH_USER_NAME: bitglint
   ITCH_GAME_NAME: testmonogamegl
-  PROJECT_PATH: TestMonogameGL
+  PROJECT_PATH: ~/TestMonogameGL
 
 jobs:
   build:
